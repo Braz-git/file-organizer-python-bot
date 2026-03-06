@@ -31,7 +31,7 @@ Ideal for cleaning up messy Downloads, Desktop, Documents, or any other folder â
 ### How to Run the Script
 
 1. **Clone or download the repository**
-   # bash
+   #### bash
    git clone https://github.com/Braz-git/file-organizer-python-bot.git
    cd file-organizer-python-bot
 
