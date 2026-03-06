@@ -88,15 +88,21 @@ python main.py "C:\Users\YourName\My Messy Folder" --dry-run
 
 ### bash
 python main.py ~/Downloads
+
 python main.py ~/Desktop
+
 python main.py /home/test_folder
+
 python main.py "~/My Messy Folder"
 
 ### ================ WindowsBash ================
 
 python main.py "C:\Users\YourName\Downloads"
+
 python main.py "C:\Users\YourName\Desktop"
+
 python main.py "C:\Users\YourName\Documents\Old Projects"
+
 python main.py "C:\Users\YourName\My Messy Folder"
 
 ### Deactivate the virtual environment when finished
