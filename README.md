@@ -20,13 +20,13 @@ Ideal for cleaning up messy Downloads, Desktop, Documents, or any other folder â
 ### Demo
 
 **Before** (messy folder with scattered files):  
-![Before organizing](screenshots_before.png)
+![Before organizing](screenshots/before.png)
 
 **After Dry-run** (a safe organize option):
-![After pre organizing](screenshots_dry-run.png)
+![After pre organizing](screenshots/dry-run.png)
 
 **After** (clean structure with categorized subfolders):  
-![After organizing](screenshots_after.png)
+![After organizing](screenshots/after.png)
 
 ### How to Run the Script
 
@@ -38,13 +38,13 @@ Ideal for cleaning up messy Downloads, Desktop, Documents, or any other folder â
 (Recommended) Create and activate a virtual environment
 This keeps the project isolated from your system Python.
 
-# ================ Linux / macOS: ================
+### ================ Linux / macOS: ================
 
-# bash
+#### bash
 python3 -m venv venv
 source venv/bin/activate
 
-# ================ Windows (PowerShell or Command Prompt): ================
+### ================ Windows (PowerShell or Command Prompt): ================
 
 Bashpython -m venv venv
 venv\Scripts\activate
@@ -54,45 +54,45 @@ Run the script
 
 ## Always start with --dry-run to preview what will happen (nothing is moved!).Safe preview examples (dry-run):
 
-## ================ Linux / macOS ================
+### ================ Linux / macOS ================
 
-# Preview Downloads folder
+#### Preview Downloads folder
 python main.py ~/Downloads --dry-run
 
-# Preview Desktop
+#### Preview Desktop
 python main.py ~/Desktop --dry-run
 
-# Preview a specific folder in home
+#### Preview a specific folder in home
 python main.py /home/test_folder --dry-run
 
-# Folder with spaces in name (use quotes)
+#### Folder with spaces in name (use quotes)
 python main.py "~/My Messy Folder" --dry-run
 
-# ================ Windows ================
+### ================ Windows ================
 
-# Preview Downloads folder
+#### Preview Downloads folder
 python main.py "C:\Users\YourName\Downloads" --dry-run
 
-# Preview Desktop
+#### Preview Desktop
 python main.py "C:\Users\YourName\Desktop" --dry-run
 
-# Preview a folder in Documents
+#### Preview a folder in Documents
 python main.py "C:\Users\YourName\Documents\Old Projects" --dry-run
 
-# Folder with spaces (quotes required)
+#### Folder with spaces (quotes required)
 python main.py "C:\Users\YourName\My Messy Folder" --dry-run
 
 ### Organize files for real (only run after confirming the preview is correct):
 
-# ================ Linux / macOS ================
+### ================ Linux / macOS ================
 
-# bash
+### bash
 python main.py ~/Downloads
 python main.py ~/Desktop
 python main.py /home/test_folder
 python main.py "~/My Messy Folder"
 
-# ================ WindowsBash ================
+### ================ WindowsBash ================
 
 python main.py "C:\Users\YourName\Downloads"
 python main.py "C:\Users\YourName\Desktop"
@@ -101,7 +101,7 @@ python main.py "C:\Users\YourName\My Messy Folder"
 
 ### Deactivate the virtual environment when finished
 
-# bash
+### bash
 deactivate
 
 **Important safety notes** 
