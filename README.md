@@ -109,3 +109,23 @@ deactivate
 Always test with --dry-run first.
 Make a backup of important folders before running without the flag.
 The script only moves files (not folders) and skips non-file items.
+
+### Built With
+
+- Python 3.8+
+- Standard libraries only: pathlib, shutil, argparse
+
+### License
+
+MIT License — see the LICENSE file for full details.
+
+### About this project
+
+Created as part of my Python automation portfolio while studying Full Stack Python (EBAC).
+This is a real-world example of useful file management automation — the kind of practical script I build and customize for clients.
+
+Want a customized version? (sort by date, generate logs, email reports, etc.)
+→ Check my Fiverr gigs or send me a message!
+
+⭐ If this helps you, please star the repository!
+Questions, suggestions, or improvements? Feel free to open an issue or submit a pull request.
